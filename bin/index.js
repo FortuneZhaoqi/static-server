@@ -3,11 +3,7 @@
 import { Command } from "commander";
 import path from "node:path";
 import { startServer } from '../lib/server.js'
-import { fileURLToPath } from "node:url";
 import * as fs from "node:fs";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const program = new Command();
 
@@ -16,7 +12,7 @@ program
   .description('A lightweight static file server with SPA support, gzip, and caching.')
   .option('-p, --port <number>', 'Port to run on', '3000')
   .option('--spa', 'Enable SPA fallback routing')
-  .option('--root <dir>', 'Root directory to serve', 'public')
+  .option('--root <!--suppress XmlDeprecatedElement, HtmlDeprecatedTag --><dir>', 'Root directory to serve', 'public')
   .option('--https', 'Enable HTTPS mode')
   .option('--key <path>', 'Path to SSL key')
   .option('--cert <path>', 'Path to SSL cert')
