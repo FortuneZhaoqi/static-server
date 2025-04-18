@@ -1,0 +1,19 @@
+{
+  "name": "serve-lite",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "serve-lite": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "marked": "^15.0.8",
+    "mime-types": "^3.0.1"
+  }
+}
