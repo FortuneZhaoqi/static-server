@@ -6,7 +6,7 @@ export default {
   sslKeyPath: './cert/key.pem',
   sslCertPath: './cert/cert.pem',
   auth: {
-    username: 'admin',
-    password: 'secret123'
+    username: '',
+    password: ''
   }
 };
